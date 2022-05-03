@@ -1,18 +1,24 @@
-# Tags: latest, 8.1.0-debian-10-r32, 8.1.0, 8-debian-10, 8
+# Tags: latest, 8.1.0-debian-10-r33, 8.1.0, 8-debian-10, 8
 FROM bitnami/suitecrm:latest
-FROM bitnami/suitecrm:8.1.0-debian-10-r32
+FROM bitnami/suitecrm:8.1.0-debian-10-r33
 FROM bitnami/suitecrm:8.1.0
 FROM bitnami/suitecrm:8-debian-10
 FROM bitnami/suitecrm:8
 
-# Tags: 7.12.5-debian-10-r60, 7.12.5, 7-debian-10, 7
-FROM bitnami/suitecrm:7.12.5-debian-10-r60
+# Tags: 7.12.5-debian-10-r61, 7.12.5, 7-debian-10, 7
+FROM bitnami/suitecrm:7.12.5-debian-10-r61
 FROM bitnami/suitecrm:7.12.5
 FROM bitnami/suitecrm:7-debian-10
 FROM bitnami/suitecrm:7
 
 # Tags: _
 FROM bitnami/suitecrm:_
+
+# Tags: 7.12.5-debian-10-r60
+FROM bitnami/suitecrm:7.12.5-debian-10-r60
+
+# Tags: 8.1.0-debian-10-r32
+FROM bitnami/suitecrm:8.1.0-debian-10-r32
 
 # Tags: 7.12.5-debian-10-r59
 FROM bitnami/suitecrm:7.12.5-debian-10-r59
